@@ -1,6 +1,6 @@
 {
   "name": "@osmiumtech/crud-api-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CRUD API library with swr for React applications.",
   "repository": "github:osmiumtech/crud-api-react",
   "main": "./dist/cjs/index.js",
@@ -18,7 +18,7 @@
     "src"
   ],
   "scripts": {
-    "prepare": "rimraf dist && ncp assets/ dist/ && tsc && tsc --project tsconfig.esm.json",
+    "prepare": "rimraf dist && ncp assets/ dist/ && tsc -b tsconfig*",
     "test": "node --test"
   },
   "peerDependencies": {
