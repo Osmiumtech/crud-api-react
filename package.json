@@ -1,10 +1,10 @@
 {
-  "name": "@dwidge/crud-api-react",
+  "name": "@osmiumtech/crud-api-react",
   "version": "0.0.5",
   "description": "A CRUD API library with swr for React applications.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dwidge/crud-api-react.git"
+    "url": "git+https://github.com/osmiumtech/crud-api-react.git"
   },
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
